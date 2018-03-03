@@ -1,0 +1,20 @@
+/* style big picture */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.picture {
+  margin: 0 auto;
+  width: 320px;
+  height: 552px;
+  position: relative;
+}
+
+
+.picture img  {
+  float: left;
+  width: 320px;
+  height: 276px;
+}

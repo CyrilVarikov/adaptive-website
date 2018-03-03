@@ -1,0 +1,21 @@
+/* style of big angle bracket */
+.bigAngleBr {
+  margin: 0 auto;
+  width: 320px;
+  height: 275px;
+  /* outline: 1px solid rgb(221, 209, 29); */
+  background-color: rgb(91, 15, 161);
+  position: relative;
+}
+
+.brDecor {
+  z-index: 1;
+  position: absolute;
+  font-family: "Quicksand";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  /* line-height: 0.551; */
+  top: 102px;
+  left: 153px;
+  font-size: 41px;
+}

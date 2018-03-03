@@ -1,0 +1,41 @@
+/* article  */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textarea {
+  position: relative;
+  width: 320px;
+  height: 447px;
+  /* outline: 1px solid rgb(80, 240, 87); */
+  margin: 0 auto;
+  background-image: url(../images/bgArticle.jpg);
+  /* repeat: repeat-x, repeat-y; */
+}
+
+.urlStyle  {
+  font-family: "Montserrat";
+  color: rgb(8, 140, 165);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  font-size: 20px;
+  position: absolute;
+  left: 37px;
+  top: 39px;
+}
+
+.article {
+  font-family: "Montserrat";
+  color: rgb(81, 81, 81);
+  position: absolute;
+  left: 37px;
+  top: 65px;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  width: 250px;
+  height: 325px;
+  clip: rect(auto,auto,auto,auto);
+  line-height: 1.63;
+  font-size: 13.4px;
+  /* outline: 1px solid rgb(37, 199, 183); */
+}

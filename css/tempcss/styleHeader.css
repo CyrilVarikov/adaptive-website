@@ -1,0 +1,78 @@
+/* Head of site */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+  position: relative;
+  margin: 0 auto;
+  /* outline: 1px solid rgb(207, 21, 213); */
+  width: 320px;
+  height: 37px;
+}
+
+.Rectangle_ligth {
+  background-color: rgb(55, 60, 63);
+  /* background-image: url(../images/navigation/lightRectangle.gif); */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 320px;
+  height: 37px;
+  z-index: 1;
+}
+
+
+.Rectangle_Dark {
+  background-color: rgb(32, 37, 41);
+  position: absolute;
+  left: 279px;
+  top: 0px;
+  width: 41px;
+  height: 37px;
+  z-index: 2;
+}
+
+
+
+
+.Rectangle_2_pos3 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 293px;
+  top: 21px;
+  width: 16px;
+  height: 2px;
+  z-index: 5;
+}
+.Rectangle_2_pos2 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 293px;
+  top: 17px;
+  width: 16px;
+  height: 2px;
+  z-index: 4;
+}
+.Rectangle_2_pos1 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  /* outline: 1px solid #b8191f; */
+  left: 293px;
+  top: 13px;
+  width: 16px;
+  height: 2px;
+  z-index: 3;
+}
+
+nav .HeaderText {
+  font-family: "Montserrat";
+  font-size: 15px;
+  z-index: 7;
+  position: absolute;
+  top: 8px;
+  left: 19px;
+  color: rgb(235, 235, 235);
+}

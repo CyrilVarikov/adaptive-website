@@ -1,0 +1,48 @@
+/* baner of site */
+.baner{
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  height: 175px;
+  /* background-image: (../images/ */
+  /* outline: 1px solid rgb(6, 212, 70); */
+
+}
+
+.baner img{
+  width: 320px;
+  height: 175px;
+  z-index: 0;
+}
+
+.bigText{
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  line-height: 1.083;
+  font-family: "Montserrat";
+  font-size: 20px;
+  width: 75%;
+  color: rgb(255, 255, 255);
+}
+
+.siteURL {
+  position: absolute;
+  font-family: "Montserrat";
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 1.912;
+  top: 106px;
+  left: 25px;
+  font-size: 11.5px;
+}
+
+
+.anglebr {
+  position: absolute;
+  font-family: "Quicksand";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  top: 108px;
+  left: 245px;
+  font-size: 11.5px;
+}

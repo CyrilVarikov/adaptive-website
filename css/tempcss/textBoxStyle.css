@@ -1,0 +1,51 @@
+/* text: I'm like Robin... */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textBox {
+  margin: 0 auto;
+  position: relative;
+  /* outline: 1px solid rgb(249, 34, 174); */
+  width: 320px;
+  height: 75px;
+}
+
+.bgBlock {
+  width: 320px;
+  height: 75px;
+  z-index: 0;
+}
+
+.rightAside{
+  z-index: 1;
+  height: 75px;
+  width: 71px;
+  position: absolute;
+  top: 0px;
+  left: 249px;
+}
+
+.textDecor {
+  font-family: "Montserrat";
+  color: rgb(146, 130, 160);
+  /* line-height: 2.167; */
+  font-size: 10px;
+  position: absolute;
+  top: 34px;
+  left: 26px;
+  z-index: 1;
+}
+
+.bigBracket {
+  font-family: "Quicksand";
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  z-index: 2;
+  position: absolute;
+  top: 27px;
+  right: 32px;
+}
