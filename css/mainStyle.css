@@ -12,10 +12,17 @@ nav {
   width: 320px;
   height: 37px;
 }
+a{
+  display: block;
+}
+
+a:hover{
+  background-color: rgb(54, 51, 73);
+}
 
 .Rectangle_ligth {
   background-color: rgb(55, 60, 63);
-  /* background-image: url(../images/navigation/lightRectangle.gif); */
+  background-image: url(../images/navigation/lightRectangle.gif);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -27,6 +34,7 @@ nav {
 
 .Rectangle_Dark {
   background-color: rgb(32, 37, 41);
+  background-image: url(../images/navigation/darkRectangle.gif);
   position: absolute;
   left: 279px;
   top: 0px;
@@ -40,6 +48,7 @@ nav {
 
 .Rectangle_2_pos3 {
   background-color: rgb(255, 255, 255);
+  background-image: url(../images/navigation/rectangle_white.gif);
   position: absolute;
   left: 293px;
   top: 21px;
@@ -49,6 +58,7 @@ nav {
 }
 .Rectangle_2_pos2 {
   background-color: rgb(255, 255, 255);
+  background-image: url(../images/navigation/rectangle_white.gif);
   position: absolute;
   left: 293px;
   top: 17px;
@@ -58,6 +68,7 @@ nav {
 }
 .Rectangle_2_pos1 {
   background-color: rgb(255, 255, 255);
+  background-image: url(../images/navigation/rectangle_white.gif);
   position: absolute;
   /* outline: 1px solid #b8191f; */
   left: 293px;
@@ -264,4 +275,8 @@ nav .HeaderText {
   line-height: 1.63;
   font-size: 13.4px;
   /* outline: 1px solid rgb(37, 199, 183); */
+}
+
+.article-right{
+  display: none;
 }
